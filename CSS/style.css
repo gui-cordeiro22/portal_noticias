@@ -63,3 +63,31 @@ body.fotos #nav-bar a#fotos {
     color: #FFFFFF;
     cursor: text;
 }
+#content {
+    margin-top:60px;
+    background: #F5F5F5;
+}
+#p-content {
+    width: 270px;
+    float: left;
+    background: rgb(184, 239, 239);
+}
+#s-content {
+    width: 270px;
+    float: left;
+    background:rgb(121, 172, 121);
+}
+#l-content {
+    width: 180px;
+    float: left;
+    background: rgb(238, 238, 130);
+}
+#container-footer {
+    background: #294c71;
+    padding: 20px;
+}
+#footer {
+    width: 750px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
