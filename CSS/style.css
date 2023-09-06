@@ -51,6 +51,7 @@ input {
 #topo ul {
     margin-top: 30px;
     background: #B10333;
+    float: left;
 }
 #topo ul li {
     float: left;
@@ -59,7 +60,7 @@ input {
     font-size: 0.9em;
     color: #FFFFFF;
     display: block;
-    padding: 0.5em 1.5em;
+    padding: 0.5em 1.2em;
     line-height: 2.1em;
     background: url(../Imagens/divisor.png) no-repeat left center;
 }
@@ -70,6 +71,7 @@ input {
     color: #69001d;
     text-decoration: underline;
 }
+
 #content {
     margin-top:60px;
     background: #F5F5F5;
@@ -89,7 +91,6 @@ input {
 #s-content {
     width: 270px;
     float: left;
-    background:rgb(121, 172, 121);
     margin: 0 0 20px 15px;
 }
 #l-content {
@@ -119,6 +120,33 @@ input {
     width: 750px;
     margin: 0 auto;
     color: #FFFFFF;
+}
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #cccccc;
+    height: 62px;
+}
+#lista-noticias li:hover {
+    text-decoration: underline;
+    background: #eeeeee;
+    cursor: pointer;
+}
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+    
+}
+#lista-noticias li a {
+    text-decoration: none;
+}
+#lista-noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    text-transform: uppercase;
+    color:#3e7ab9;
+}
+#lista-noticias li a p {
+    font-size: 0.7em;
 }
 
 /*Classes*/
@@ -170,4 +198,11 @@ img.imagem-destaque {
     padding: 3px;
     background: #b10333;
     color: #FFFFFF;
+}
+.entrevista h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background: #de003e;
 }
