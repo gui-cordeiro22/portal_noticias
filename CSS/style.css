@@ -1,11 +1,44 @@
+/*Limpando formatações padrão*/
 * {
     margin: 0;
     padding: 0;
 }
+
+/*Seletores gerais*/
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
     background: #FFFFFF url(../Imagens/fundo.png) repeat-x;
 }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #FFFFFF;
+    padding: 5px;
+}
+label {
+    display: block;
+    cursor: pointer;
+}
+input {
+    font-size: 0.9em;
+    background-color: #FFFFFF;
+    padding: 5px;
+    margin: 5px;
+    width: 125px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+/*Id's*/
 #container {
     width: 750px;
     margin: 0 auto;
@@ -15,27 +48,12 @@ body {
     background: url(../Imagens/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
 }
-.logo {
-    background: url(../Imagens/logo.png) no-repeat;
-    text-indent: -3000px;
-    width: 152px;
-    height: 66px;
-}
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    float: left;
-}
 #topo ul {
     margin-top: 30px;
     background: #B10333;
 }
 #topo ul li {
     float: left;
-}
-a {
-    text-decoration: none;
 }
 #topo ul a {
     font-size: 0.9em;
@@ -52,6 +70,64 @@ a {
     color: #69001d;
     text-decoration: underline;
 }
+#content {
+    margin-top:60px;
+    background: #F5F5F5;
+}
+#p-content {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#brasil #p-content {
+    width: 555px;
+}
+#fotos #p-content {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+#s-content {
+    width: 270px;
+    float: left;
+    background:rgb(121, 172, 121);
+    margin: 0 0 20px 15px;
+}
+#l-content {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+#l-content ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+#l-content ul a:hover {
+    color: #888585;
+    background: #f9f9f9 url(../Imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+}
+#container-footer {
+    background: #294c71;
+    padding: 20px;
+}
+#footer {
+    width: 750px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+/*Classes*/
+.logo {
+    background: url(../Imagens/logo.png) no-repeat;
+    text-indent: -3000px;
+    width: 152px;
+    height: 66px;
+}
 body.home #nav-bar a#home,
 body.brasil #nav-bar a#brasil,
 body.internacional #nav-bar a#internacional,
@@ -63,31 +139,35 @@ body.fotos #nav-bar a#fotos {
     color: #FFFFFF;
     cursor: text;
 }
-#content {
-    margin-top:60px;
-    background: #F5F5F5;
+.box-principal {
+    background: #F3F3F3 url(../Imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
 }
-#p-content {
-    width: 270px;
-    float: left;
-    background: rgb(184, 239, 239);
+.box-principal ul {
+    float: none;
 }
-#s-content {
-    width: 270px;
-    float: left;
-    background:rgb(121, 172, 121);
+
+.content-box {
+    background: #FFFFFF;
+    padding: 5px;
+    margin-top: 5px;
 }
-#l-content {
-    width: 180px;
-    float: left;
-    background: rgb(238, 238, 130);
+
+input.submit {
+    width: 80px;
+    color: #FFFFFF;
+    background: #b10333;
+    border: 2px solid #870529;
 }
-#container-footer {
-    background: #294c71;
-    padding: 20px;
+img.imagem-destaque {
+    border: 2px solid #dfdfdf;
 }
-#footer {
-    width: 750px;
-    margin: 0 auto;
+.destaque h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background: #b10333;
     color: #FFFFFF;
 }
