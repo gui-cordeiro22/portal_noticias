@@ -181,12 +181,15 @@ body.fotos #nav-bar a#fotos {
     padding: 5px;
     margin-top: 5px;
 }
-
+.content-box p {
+    text-align: justify;
+}
 input.submit {
     width: 80px;
     color: #FFFFFF;
     background: #b10333;
     border: 2px solid #870529;
+    cursor: pointer;
 }
 img.imagem-destaque {
     border: 2px solid #dfdfdf;
